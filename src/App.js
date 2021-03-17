@@ -10,29 +10,29 @@ export default function App() {
   const [tasks, setTasks] = useState([
     {
       id: 1,
-      text: "Doctor",
-      day: "Feb 5th at 1:30pm",
+      text: "Tortoise SVN setup",
+      day: "March 17th at 1:30pm",
       reminder: true
     },
 
     {
       id: 2,
       text: "Groceries",
-      day: "Feb 6th at 10:30am",
+      day: "March 18th at 10:30am",
       reminder: true
     },
 
     {
       id: 3,
       text: "Learn hooks in react",
-      day: "Feb 7th at 6:00am",
+      day: "March 19th at 6:00am",
       reminder: false
     },
 
     {
       id: 4,
-      text: "Food shopping",
-      day: "Feb 8th at 11:00am",
+      text: "Complete pending projects",
+      day: "March 20th at 11:00am",
       reminder: false
     }
   ]);
