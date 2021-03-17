@@ -11,8 +11,7 @@ body {
 }
 
 .container {
-  background-color:;
-  max-width: 500px;
+  max-width: 675px;
   margin: 30px auto;
   overflow: auto;
   min-height: 300px;
@@ -110,9 +109,10 @@ body {
 .footer {
   margin-top: 30px;
   text-align: center;
+  cursor: pointer;
 }
 
-.unordered{
+.unordered {
   list-style: none;
 }
 .links {
@@ -120,8 +120,8 @@ body {
   text-decoration: none;
 }
 
-.a{
+.a {
   padding: 1rem;
   text-decoration: none;
-  color:black;
+  color: black;
 }

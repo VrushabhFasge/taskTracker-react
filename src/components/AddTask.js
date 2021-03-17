@@ -14,6 +14,7 @@ const AddTask = ({ onAdd }) => {
     }
 
     onAdd({ text, day, reminder });
+    alert("You can double tap to turn reminder on/off");
 
     setText("");
     setDay("");
