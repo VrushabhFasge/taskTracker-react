@@ -2,7 +2,7 @@ import "./styles.css";
 import Header from "./components/Header";
 import Tasks from "./components/Tasks";
 import AddTask from "./components/AddTask";
-import Footer from "./components/footer"
+import Footer from "./components/footer";
 import { useState } from "react";
 
 export default function App() {
@@ -24,7 +24,7 @@ export default function App() {
 
     {
       id: 3,
-      text: "Outdoors",
+      text: "Learn hooks in react",
       day: "Feb 7th at 6:00am",
       reminder: false
     },
